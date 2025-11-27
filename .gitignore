@@ -1,0 +1,87 @@
+# ===========================================
+# PYTHON
+# ===========================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.db
+*.sqlite3
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Local python settings
+.python-version
+
+
+# ===========================================
+# FASTAPI / UVICORN
+# ===========================================
+# logs
+*.log
+logs/
+uvicorn.log
+
+
+# ===========================================
+# ENVIRONMENT VARIABLES
+# ===========================================
+.env
+*.env.local
+.env.*
+
+
+# ===========================================
+# VS CODE
+# ===========================================
+.vscode/
+.history/
+*.code-workspace
+
+
+# ===========================================
+# MACOS
+# ===========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Mac metadata
+.Spotlight-V100
+.Trashes
+
+# ===========================================
+# PYTEST / TESTS
+# ===========================================
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+
+
+# ===========================================
+# BUILD ARTIFACTS
+# ===========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# ===========================================
+# OLLAMA (MODELS LOCAL CACHE)
+# ===========================================
+# Models e blobs baixados pelo ollama
+~/.ollama/
+ollama.blobstore/
